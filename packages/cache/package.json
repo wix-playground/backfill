@@ -1,5 +1,5 @@
 {
-  "name": "backfill-cache",
+  "name": "backfill-cache-wix",
   "description": "Backfill Cache Providers",
   "license": "MIT",
   "author": "Benjamin Weggersen <bewegger@microsoft.com>",
