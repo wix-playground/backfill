@@ -1,8 +1,24 @@
 # Change Log - backfill-cache
 
-This log was last generated on Tue, 12 Oct 2021 19:45:45 GMT and should not be manually modified.
+This log was last generated on Thu, 09 Dec 2021 09:28:58 GMT and should not be manually modified.
 
 <!-- Start content -->
+
+## 5.3.3
+
+Thu, 09 Dec 2021 09:28:58 GMT
+
+### Patches
+
+- rename (shaulgo@gmail.com)
+
+## 5.3.1
+
+Wed, 08 Dec 2021 13:36:18 GMT
+
+### Patches
+
+- 1. Fix package.json copied to dist 2. Improve performance (shaulgo@gmail.com)
 
 ## 5.3.0
 
@@ -10,7 +26,8 @@ Tue, 12 Oct 2021 19:45:45 GMT
 
 ### Minor changes
 
-- feat: adds a way to set up custom cache storage provider classes (kchau@microsoft.com)
+- feat: adds a way to set up custom cache storage provider classes
+  (kchau@microsoft.com)
 
 ## 5.2.6
 
@@ -26,7 +43,8 @@ Sat, 31 Jul 2021 21:38:03 GMT
 
 ### Patches
 
-- Speeds up put memoized hash calculation as well as fixing a bug in the path normalization (ken@gizzar.com)
+- Speeds up put memoized hash calculation as well as fixing a bug in the path
+  normalization (ken@gizzar.com)
 
 ## 5.2.4
 
