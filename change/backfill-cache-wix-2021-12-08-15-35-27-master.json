@@ -1,8 +1,0 @@
-{
-  "type": "patch",
-  "comment": "1. Fix package.json copied to dist 2. Improve performance",
-  "packageName": "backfill-cache-wix",
-  "email": "shaulgo@gmail.com",
-  "dependentChangeType": "patch",
-  "date": "2021-12-08T13:35:27.319Z"
-}
