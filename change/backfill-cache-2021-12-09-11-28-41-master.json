@@ -1,0 +1,8 @@
+{
+  "type": "patch",
+  "comment": "rename",
+  "packageName": "backfill-cache",
+  "email": "shaulgo@gmail.com",
+  "dependentChangeType": "patch",
+  "date": "2021-12-09T09:28:41.132Z"
+}
