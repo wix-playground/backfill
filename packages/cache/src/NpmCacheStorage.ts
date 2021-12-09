@@ -60,6 +60,9 @@ export class NpmCacheStorage extends CacheStorage {
     );
 
     if (!fs.existsSync(packageFolder)) {
+      if (!(await this.isPublished(`0.0.0-${hash}`))) {
+        return false;
+      }
       fs.mkdirpSync(rootCacheFolder);
 
       try {
