@@ -1,6 +1,21 @@
 {
-  "name": "backfill-cache-wix",
+  "name": "backfill-cache",
   "entries": [
+    {
+      "date": "Thu, 09 Dec 2021 09:28:58 GMT",
+      "tag": "backfill-cache_v5.3.3",
+      "version": "5.3.3",
+      "comments": {
+        "patch": [
+          {
+            "comment": "rename",
+            "author": "shaulgo@gmail.com",
+            "commit": "1778a21f29033e1e700a6b7ed98e5e373cabdd21",
+            "package": "backfill-cache"
+          }
+        ]
+      }
+    },
     {
       "date": "Wed, 08 Dec 2021 13:36:18 GMT",
       "tag": "backfill-cache-wix_v5.3.1",
